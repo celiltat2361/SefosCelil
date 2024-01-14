@@ -27,7 +27,7 @@ namespace SefosApi.Services
                 functionbox_uuid = _configuration["SefosApiConfig:FunctionBoxUuid"],
                 subject = model.Subject,
                 body = model.Body,
-                attachments = new List<object>(), // Varsa ek dosyaları ekleyin
+                attachments = new List<object>(),
                 external_text = "",
                 sefos_participants = new[] { new { email = _configuration["SefosApiConfig:ReceiverEmail"] } },
                 external_participants = model.ExternalParticipants,
