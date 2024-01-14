@@ -1,0 +1,512 @@
+2024-01-14 15:42:48.631 +01:00 [INF] Starting web host
+2024-01-14 15:42:49.487 +01:00 [DBG] Initializing Razor view compiler with no compiled views.
+2024-01-14 15:42:49.511 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 15:42:49.572 +01:00 [INF] User profile is available. Using 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-14 15:42:49.645 +01:00 [DBG] Hosting starting
+2024-01-14 15:42:49.648 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-36b24e90-7974-4b33-a0b7-25795b04bbcd.xml'.
+2024-01-14 15:42:49.667 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8.xml'.
+2024-01-14 15:42:49.668 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-51729005-bdd7-4167-898a-c5e5aecdf6b3.xml'.
+2024-01-14 15:42:49.677 +01:00 [DBG] Found key {36b24e90-7974-4b33-a0b7-25795b04bbcd}.
+2024-01-14 15:42:49.684 +01:00 [DBG] Found key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8}.
+2024-01-14 15:42:49.684 +01:00 [DBG] Found key {51729005-bdd7-4167-898a-c5e5aecdf6b3}.
+2024-01-14 15:42:49.690 +01:00 [DBG] Considering key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} with expiration date 2024-03-08 23:54:52Z as default key.
+2024-01-14 15:42:49.692 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:42:49.692 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-01-14 15:42:49.693 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:42:49.697 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-01-14 15:42:49.698 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-01-14 15:42:49.700 +01:00 [DBG] Using key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} as the default key.
+2024-01-14 15:42:49.700 +01:00 [DBG] Key ring with default key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} was loaded during application startup.
+2024-01-14 15:42:49.740 +01:00 [DBG] Loaded hosting startup assembly SefosApi
+2024-01-14 15:42:49.743 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 15:42:49.743 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 15:42:49.743 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 15:42:49.743 +01:00 [INF] Hosting environment: Development
+2024-01-14 15:42:49.743 +01:00 [INF] Content root path: C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\
+2024-01-14 15:42:49.743 +01:00 [DBG] Hosting started
+2024-01-14 15:42:49.787 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 15:42:49.822 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 15:42:49.824 +01:00 [DBG] The request path /swagger/index.html does not match an existing file
+2024-01-14 15:42:49.844 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-01-14 15:42:49.844 +01:00 [DBG] Request did not match any endpoints
+2024-01-14 15:42:49.877 +01:00 [DBG] Connection ID "18374686507052040302" disconnecting.
+2024-01-14 15:42:49.877 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 404 - - 93.9074ms
+2024-01-14 15:44:15.766 +01:00 [INF] Starting web host
+2024-01-14 15:44:16.493 +01:00 [DBG] Initializing Razor view compiler with no compiled views.
+2024-01-14 15:44:16.512 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 15:44:16.556 +01:00 [INF] User profile is available. Using 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-14 15:44:16.612 +01:00 [DBG] Hosting starting
+2024-01-14 15:44:16.615 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-36b24e90-7974-4b33-a0b7-25795b04bbcd.xml'.
+2024-01-14 15:44:16.628 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8.xml'.
+2024-01-14 15:44:16.628 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-51729005-bdd7-4167-898a-c5e5aecdf6b3.xml'.
+2024-01-14 15:44:16.636 +01:00 [DBG] Found key {36b24e90-7974-4b33-a0b7-25795b04bbcd}.
+2024-01-14 15:44:16.643 +01:00 [DBG] Found key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8}.
+2024-01-14 15:44:16.644 +01:00 [DBG] Found key {51729005-bdd7-4167-898a-c5e5aecdf6b3}.
+2024-01-14 15:44:16.650 +01:00 [DBG] Considering key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} with expiration date 2024-03-08 23:54:52Z as default key.
+2024-01-14 15:44:16.652 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:44:16.652 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-01-14 15:44:16.653 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:44:16.657 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-01-14 15:44:16.659 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-01-14 15:44:16.661 +01:00 [DBG] Using key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} as the default key.
+2024-01-14 15:44:16.661 +01:00 [DBG] Key ring with default key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} was loaded during application startup.
+2024-01-14 15:44:16.734 +01:00 [DBG] Loaded hosting startup assembly SefosApi
+2024-01-14 15:44:16.767 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 15:44:16.767 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 15:44:16.768 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 15:44:16.768 +01:00 [INF] Hosting environment: Development
+2024-01-14 15:44:16.768 +01:00 [INF] Content root path: C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\
+2024-01-14 15:44:16.768 +01:00 [DBG] Hosting started
+2024-01-14 15:44:16.808 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 15:44:16.842 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 15:44:16.845 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:44:17.032 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-14 15:44:17.059 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-14 15:44:17.069 +01:00 [DBG] Connection ID "17942340942824472608" disconnecting.
+2024-01-14 15:44:17.071 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 500 - text/html;+charset=utf-8 266.2887ms
+2024-01-14 15:44:17.621 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - -
+2024-01-14 15:44:17.621 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - -
+2024-01-14 15:44:17.645 +01:00 [DBG] Connection ID "17942340925644603487" disconnecting.
+2024-01-14 15:44:17.649 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 23.2319ms
+2024-01-14 15:44:17.678 +01:00 [DBG] Connection ID "18158513712053354550" disconnecting.
+2024-01-14 15:44:17.680 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.1421ms
+2024-01-14 15:44:18.282 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/favicon.ico - -
+2024-01-14 15:44:18.282 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:44:18.288 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/favicon.ico - - - 500 - text/plain;+charset=utf-8 5.9600ms
+2024-01-14 15:44:18.288 +01:00 [DBG] Connection ID "18014398515387564277" disconnecting.
+2024-01-14 15:47:30.275 +01:00 [INF] Starting web host
+2024-01-14 15:47:30.459 +01:00 [DBG] Initializing Razor view compiler with no compiled views.
+2024-01-14 15:47:30.473 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 15:47:30.488 +01:00 [INF] User profile is available. Using 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-14 15:47:30.515 +01:00 [DBG] Hosting starting
+2024-01-14 15:47:30.517 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-36b24e90-7974-4b33-a0b7-25795b04bbcd.xml'.
+2024-01-14 15:47:30.523 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8.xml'.
+2024-01-14 15:47:30.523 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-51729005-bdd7-4167-898a-c5e5aecdf6b3.xml'.
+2024-01-14 15:47:30.531 +01:00 [DBG] Found key {36b24e90-7974-4b33-a0b7-25795b04bbcd}.
+2024-01-14 15:47:30.533 +01:00 [DBG] Found key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8}.
+2024-01-14 15:47:30.534 +01:00 [DBG] Found key {51729005-bdd7-4167-898a-c5e5aecdf6b3}.
+2024-01-14 15:47:30.539 +01:00 [DBG] Considering key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} with expiration date 2024-03-08 23:54:52Z as default key.
+2024-01-14 15:47:30.540 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:47:30.541 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-01-14 15:47:30.542 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:47:30.545 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-01-14 15:47:30.547 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-01-14 15:47:30.549 +01:00 [DBG] Using key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} as the default key.
+2024-01-14 15:47:30.549 +01:00 [DBG] Key ring with default key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} was loaded during application startup.
+2024-01-14 15:47:30.598 +01:00 [DBG] Loaded hosting startup assembly SefosApi
+2024-01-14 15:47:30.598 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 15:47:30.598 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 15:47:30.598 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 15:47:30.598 +01:00 [INF] Hosting environment: Development
+2024-01-14 15:47:30.598 +01:00 [INF] Content root path: C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\
+2024-01-14 15:47:30.598 +01:00 [DBG] Hosting started
+2024-01-14 15:47:30.620 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 15:47:30.640 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 15:47:30.641 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:47:30.722 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-14 15:47:30.735 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-14 15:47:30.737 +01:00 [DBG] Connection ID "18086456109425492196" disconnecting.
+2024-01-14 15:47:30.740 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 500 - text/html;+charset=utf-8 121.8017ms
+2024-01-14 15:47:30.758 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - -
+2024-01-14 15:47:30.760 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - -
+2024-01-14 15:47:30.764 +01:00 [DBG] Connection ID "18086456109425492198" disconnecting.
+2024-01-14 15:47:30.765 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 3.9755ms
+2024-01-14 15:47:30.787 +01:00 [DBG] Connection ID "18158513712053354552" disconnecting.
+2024-01-14 15:47:30.787 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.5021ms
+2024-01-14 15:47:31.912 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/favicon.ico - -
+2024-01-14 15:47:31.913 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:47:31.917 +01:00 [DBG] Connection ID "18086456109425492200" disconnecting.
+2024-01-14 15:47:31.917 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/favicon.ico - - - 500 - text/plain;+charset=utf-8 4.5883ms
+2024-01-14 15:47:35.214 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/ - -
+2024-01-14 15:47:35.215 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:47:35.218 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-14 15:47:35.219 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-14 15:47:35.219 +01:00 [DBG] Connection ID "18158513724938256572" disconnecting.
+2024-01-14 15:47:35.219 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/ - - - 500 - text/html;+charset=utf-8 4.6621ms
+2024-01-14 15:47:35.256 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - -
+2024-01-14 15:47:35.257 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - -
+2024-01-14 15:47:35.257 +01:00 [DBG] Connection ID "17942340925644603492" disconnecting.
+2024-01-14 15:47:35.257 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 0.7840ms
+2024-01-14 15:47:35.279 +01:00 [DBG] Connection ID "18086456109425492202" disconnecting.
+2024-01-14 15:47:35.279 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.8135ms
+2024-01-14 15:47:35.529 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/favicon.ico - -
+2024-01-14 15:47:35.529 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:47:35.530 +01:00 [DBG] Connection ID "18374686481282236702" disconnecting.
+2024-01-14 15:47:35.530 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.7575ms
+2024-01-14 15:53:28.645 +01:00 [INF] Starting web host
+2024-01-14 15:53:29.416 +01:00 [DBG] Initializing Razor view compiler with no compiled views.
+2024-01-14 15:53:29.435 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 15:53:29.488 +01:00 [INF] User profile is available. Using 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-14 15:53:29.537 +01:00 [DBG] Hosting starting
+2024-01-14 15:53:29.540 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-36b24e90-7974-4b33-a0b7-25795b04bbcd.xml'.
+2024-01-14 15:53:29.560 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8.xml'.
+2024-01-14 15:53:29.560 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-51729005-bdd7-4167-898a-c5e5aecdf6b3.xml'.
+2024-01-14 15:53:29.567 +01:00 [DBG] Found key {36b24e90-7974-4b33-a0b7-25795b04bbcd}.
+2024-01-14 15:53:29.572 +01:00 [DBG] Found key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8}.
+2024-01-14 15:53:29.572 +01:00 [DBG] Found key {51729005-bdd7-4167-898a-c5e5aecdf6b3}.
+2024-01-14 15:53:29.578 +01:00 [DBG] Considering key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} with expiration date 2024-03-08 23:54:52Z as default key.
+2024-01-14 15:53:29.580 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:53:29.581 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-01-14 15:53:29.581 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:53:29.585 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-01-14 15:53:29.587 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-01-14 15:53:29.588 +01:00 [DBG] Using key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} as the default key.
+2024-01-14 15:53:29.589 +01:00 [DBG] Key ring with default key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} was loaded during application startup.
+2024-01-14 15:53:29.672 +01:00 [DBG] Loaded hosting startup assembly SefosApi
+2024-01-14 15:53:29.672 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 15:53:29.672 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 15:53:29.672 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 15:53:29.672 +01:00 [INF] Hosting environment: Development
+2024-01-14 15:53:29.672 +01:00 [INF] Content root path: C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\
+2024-01-14 15:53:29.672 +01:00 [DBG] Hosting started
+2024-01-14 15:53:29.712 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 15:53:29.746 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 15:53:29.748 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:53:29.949 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-14 15:53:29.974 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-14 15:53:29.982 +01:00 [DBG] Connection ID "18302628900129210725" disconnecting.
+2024-01-14 15:53:29.984 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 500 - text/html;+charset=utf-8 275.5987ms
+2024-01-14 15:53:30.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - -
+2024-01-14 15:53:30.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - -
+2024-01-14 15:53:30.511 +01:00 [DBG] Connection ID "18086456109425492206" disconnecting.
+2024-01-14 15:53:30.520 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 7.2612ms
+2024-01-14 15:53:30.560 +01:00 [DBG] Connection ID "17942340925644603494" disconnecting.
+2024-01-14 15:53:30.560 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.5736ms
+2024-01-14 15:53:31.179 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/favicon.ico - -
+2024-01-14 15:53:31.180 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:53:31.191 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/favicon.ico - - - 500 - text/plain;+charset=utf-8 11.2461ms
+2024-01-14 15:54:43.664 +01:00 [INF] Starting web host
+2024-01-14 15:54:44.387 +01:00 [DBG] Initializing Razor view compiler with no compiled views.
+2024-01-14 15:54:44.408 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 15:54:44.468 +01:00 [INF] User profile is available. Using 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-14 15:54:44.524 +01:00 [DBG] Hosting starting
+2024-01-14 15:54:44.528 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-36b24e90-7974-4b33-a0b7-25795b04bbcd.xml'.
+2024-01-14 15:54:44.553 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8.xml'.
+2024-01-14 15:54:44.554 +01:00 [DBG] Reading data from file 'C:\Users\Celil\AppData\Local\ASP.NET\DataProtection-Keys\key-51729005-bdd7-4167-898a-c5e5aecdf6b3.xml'.
+2024-01-14 15:54:44.561 +01:00 [DBG] Found key {36b24e90-7974-4b33-a0b7-25795b04bbcd}.
+2024-01-14 15:54:44.567 +01:00 [DBG] Found key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8}.
+2024-01-14 15:54:44.567 +01:00 [DBG] Found key {51729005-bdd7-4167-898a-c5e5aecdf6b3}.
+2024-01-14 15:54:44.573 +01:00 [DBG] Considering key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} with expiration date 2024-03-08 23:54:52Z as default key.
+2024-01-14 15:54:44.575 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:54:44.575 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-01-14 15:54:44.576 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-14 15:54:44.580 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-01-14 15:54:44.582 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-01-14 15:54:44.583 +01:00 [DBG] Using key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} as the default key.
+2024-01-14 15:54:44.584 +01:00 [DBG] Key ring with default key {3ccf7d11-5ec0-4d4a-a7e1-9ceb5cfaacd8} was loaded during application startup.
+2024-01-14 15:54:44.750 +01:00 [DBG] Loaded hosting startup assembly SefosApi
+2024-01-14 15:54:44.750 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 15:54:44.750 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 15:54:44.750 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 15:54:44.750 +01:00 [INF] Hosting environment: Development
+2024-01-14 15:54:44.750 +01:00 [INF] Content root path: C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\
+2024-01-14 15:54:44.750 +01:00 [DBG] Hosting started
+2024-01-14 15:54:44.825 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 15:54:44.866 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 15:54:44.869 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:54:45.067 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-14 15:54:45.096 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-14 15:54:45.104 +01:00 [DBG] Connection ID "18086456118015426599" disconnecting.
+2024-01-14 15:54:45.105 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 500 - text/html;+charset=utf-8 284.1297ms
+2024-01-14 15:54:45.655 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - -
+2024-01-14 15:54:45.655 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - -
+2024-01-14 15:54:45.664 +01:00 [DBG] Connection ID "18086456109425492208" disconnecting.
+2024-01-14 15:54:45.669 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 9.7925ms
+2024-01-14 15:54:45.704 +01:00 [DBG] Connection ID "18014398515387564279" disconnecting.
+2024-01-14 15:54:45.704 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.2511ms
+2024-01-14 15:54:46.320 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/favicon.ico - -
+2024-01-14 15:54:46.320 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 15:54:46.330 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/favicon.ico - - - 500 - text/plain;+charset=utf-8 10.2732ms
+2024-01-14 15:54:46.330 +01:00 [DBG] Connection ID "18086456122310393901" disconnecting.
+2024-01-14 15:57:54.249 +01:00 [INF] Starting web host
+2024-01-14 15:57:54.752 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 15:57:54.792 +01:00 [DBG] Hosting starting
+2024-01-14 15:57:54.837 +01:00 [DBG] Loaded hosting startup assembly SefosApi
+2024-01-14 15:57:54.837 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 15:57:54.837 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 15:57:54.838 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 15:57:54.838 +01:00 [INF] Hosting environment: Development
+2024-01-14 15:57:54.838 +01:00 [INF] Content root path: C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\
+2024-01-14 15:57:54.838 +01:00 [DBG] Hosting started
+2024-01-14 15:57:54.878 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 15:57:54.913 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 15:57:54.964 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-01-14 15:57:54.964 +01:00 [DBG] Request did not match any endpoints
+2024-01-14 15:57:54.966 +01:00 [DBG] The request path /swagger/index.html does not match an existing file
+2024-01-14 15:57:55.009 +01:00 [DBG] Connection ID "18014398528272466094" disconnecting.
+2024-01-14 15:57:55.010 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 404 - - 134.5699ms
+2024-01-14 15:57:58.789 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 15:57:58.790 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-01-14 15:57:58.790 +01:00 [DBG] Request did not match any endpoints
+2024-01-14 15:57:58.790 +01:00 [DBG] The request path /swagger/index.html does not match an existing file
+2024-01-14 15:57:58.790 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 404 - - 1.6611ms
+2024-01-14 15:59:24.530 +01:00 [INF] Starting web host
+2024-01-14 15:59:25.348 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 15:59:25.455 +01:00 [DBG] Hosting starting
+2024-01-14 15:59:25.558 +01:00 [DBG] Loaded hosting startup assembly SefosApi
+2024-01-14 15:59:25.558 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 15:59:25.558 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 15:59:25.558 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 15:59:25.559 +01:00 [INF] Hosting environment: Development
+2024-01-14 15:59:25.559 +01:00 [INF] Content root path: C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\
+2024-01-14 15:59:25.559 +01:00 [DBG] Hosting started
+2024-01-14 15:59:25.598 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 15:59:25.669 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 15:59:25.844 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-14 15:59:26.020 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-14 15:59:26.029 +01:00 [DBG] Connection ID "18014398528272466100" disconnecting.
+2024-01-14 15:59:26.030 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - -
+2024-01-14 15:59:26.031 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 436.4095ms
+2024-01-14 15:59:26.042 +01:00 [DBG] Connection ID "17942340925644603504" disconnecting.
+2024-01-14 15:59:26.043 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 4.8267ms
+2024-01-14 15:59:26.478 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - -
+2024-01-14 15:59:26.517 +01:00 [DBG] Connection ID "17942340925644603506" disconnecting.
+2024-01-14 15:59:26.520 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.9109ms
+2024-01-14 15:59:27.135 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - -
+2024-01-14 15:59:27.252 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.8075ms
+2024-01-14 15:59:45.723 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/Message/Send application/json 608
+2024-01-14 15:59:45.725 +01:00 [DBG] POST requests are not supported
+2024-01-14 15:59:45.726 +01:00 [DBG] POST requests are not supported
+2024-01-14 15:59:45.748 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Message/Send'
+2024-01-14 15:59:45.753 +01:00 [DBG] Endpoint 'SefosApi.Controllers.MessageController.Send (SefosApi)' with route pattern 'api/Message/Send' is valid for the request path '/api/Message/Send'
+2024-01-14 15:59:45.753 +01:00 [DBG] Request matched endpoint 'SefosApi.Controllers.MessageController.Send (SefosApi)'
+2024-01-14 15:59:45.756 +01:00 [INF] Executing endpoint 'SefosApi.Controllers.MessageController.Send (SefosApi)'
+2024-01-14 15:59:45.794 +01:00 [INF] Route matched with {action = "Send", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Send(SefosApi.Models.SefosRequestModel) on controller SefosApi.Controllers.MessageController (SefosApi).
+2024-01-14 15:59:45.797 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-01-14 15:59:45.798 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-01-14 15:59:45.798 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-01-14 15:59:45.798 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-01-14 15:59:45.798 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-01-14 15:59:45.799 +01:00 [DBG] Executing controller factory for controller SefosApi.Controllers.MessageController (SefosApi)
+2024-01-14 15:59:45.823 +01:00 [DBG] Executed controller factory for controller SefosApi.Controllers.MessageController (SefosApi)
+2024-01-14 15:59:45.827 +01:00 [DBG] Attempting to bind parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel' ...
+2024-01-14 15:59:45.829 +01:00 [DBG] Attempting to bind parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel' using the name '' in request data ...
+2024-01-14 15:59:45.829 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-14 15:59:45.865 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'SefosApi.Models.SefosRequestModel'
+2024-01-14 15:59:45.866 +01:00 [DBG] Done attempting to bind parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel'.
+2024-01-14 15:59:45.866 +01:00 [DBG] Done attempting to bind parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel'.
+2024-01-14 15:59:45.866 +01:00 [DBG] Attempting to validate the bound parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel' ...
+2024-01-14 15:59:45.878 +01:00 [DBG] Done attempting to validate the bound parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel'.
+2024-01-14 15:59:46.053 +01:00 [INF] Start processing HTTP request POST "https://test-meaplus.sefos.se/server/rest/api/secure"
+2024-01-14 15:59:46.056 +01:00 [INF] Sending HTTP request POST "https://test-meaplus.sefos.se/server/rest/api/secure"
+2024-01-14 16:00:46.240 +01:00 [INF] Received HTTP response headers after 60181.1895ms - 504
+2024-01-14 16:00:46.242 +01:00 [INF] End processing HTTP request after 60189.9695ms - 504
+2024-01-14 16:00:46.249 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-01-14 16:00:46.251 +01:00 [DBG] No information found on request to perform content negotiation.
+2024-01-14 16:00:46.251 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-14 16:00:46.251 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-14 16:00:46.251 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-14 16:00:46.251 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-14 16:00:46.273 +01:00 [INF] Executed action SefosApi.Controllers.MessageController.Send (SefosApi) in 60471.2929ms
+2024-01-14 16:00:46.274 +01:00 [INF] Executed endpoint 'SefosApi.Controllers.MessageController.Send (SefosApi)'
+2024-01-14 16:00:46.275 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/Message/Send application/json 608 - 504 - application/json;+charset=utf-8 60551.9118ms
+2024-01-14 16:00:46.275 +01:00 [DBG] Connection ID "18230571323271151698" disconnecting.
+2024-01-14 16:28:13.832 +01:00 [INF] Starting web host
+2024-01-14 16:28:14.344 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 16:28:14.388 +01:00 [DBG] Hosting starting
+2024-01-14 16:28:14.487 +01:00 [DBG] Loaded hosting startup assembly SefosApi
+2024-01-14 16:28:14.487 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 16:28:14.488 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 16:28:14.488 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 16:28:14.488 +01:00 [INF] Hosting environment: Development
+2024-01-14 16:28:14.488 +01:00 [INF] Content root path: C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\
+2024-01-14 16:28:14.488 +01:00 [DBG] Hosting started
+2024-01-14 16:28:14.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 16:28:14.562 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 16:28:33.879 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\bin\Debug\net6.0\SefosApi.xml'.
+File name: 'C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\bin\Debug\net6.0\SefosApi.xml'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass30_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at SefosApi.Program.<>c.<Main>b__0_0(SwaggerGenOptions c) in C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\Program.cs:line 47
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-14 16:28:34.115 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-14 16:28:34.142 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-14 16:28:34.151 +01:00 [DBG] Connection ID "18086456113720459401" disconnecting.
+2024-01-14 16:28:34.153 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 500 - text/html;+charset=utf-8 19629.2418ms
+2024-01-14 16:28:34.726 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - -
+2024-01-14 16:28:34.726 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - -
+2024-01-14 16:28:34.734 +01:00 [DBG] Connection ID "18302628887244308879" disconnecting.
+2024-01-14 16:28:34.739 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 8.1917ms
+2024-01-14 16:28:34.766 +01:00 [DBG] Connection ID "18374686481282236706" disconnecting.
+2024-01-14 16:28:34.771 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.4808ms
+2024-01-14 16:28:35.377 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/favicon.ico - -
+2024-01-14 16:29:01.338 +01:00 [INF] Starting web host
+2024-01-14 16:29:01.895 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 16:29:01.939 +01:00 [DBG] Hosting starting
+2024-01-14 16:29:02.045 +01:00 [DBG] Loaded hosting startup assembly SefosApi
+2024-01-14 16:29:02.045 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 16:29:02.045 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 16:29:02.045 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 16:29:02.046 +01:00 [INF] Hosting environment: Development
+2024-01-14 16:29:02.046 +01:00 [INF] Content root path: C:\Users\Celil\Desktop\ChatApp\SefosWebApp\SefosApi\
+2024-01-14 16:29:02.046 +01:00 [DBG] Hosting started
+2024-01-14 16:29:02.086 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2024-01-14 16:29:02.121 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 16:29:02.296 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-14 16:29:02.438 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-14 16:29:02.445 +01:00 [DBG] Connection ID "18230571323271151701" disconnecting.
+2024-01-14 16:29:02.445 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - -
+2024-01-14 16:29:02.446 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 363.9143ms
+2024-01-14 16:29:02.450 +01:00 [DBG] Connection ID "18230571323271151703" disconnecting.
+2024-01-14 16:29:02.456 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 4.5215ms
+2024-01-14 16:29:02.921 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - -
+2024-01-14 16:29:02.960 +01:00 [DBG] Connection ID "18086456122310393907" disconnecting.
+2024-01-14 16:29:02.963 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.4892ms
+2024-01-14 16:29:03.630 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - -
+2024-01-14 16:29:03.839 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 208.6403ms
+2024-01-14 16:29:03.839 +01:00 [DBG] Connection ID "18230571314681217216" disconnecting.
+2024-01-14 16:29:19.182 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/Message/Send application/json 608
+2024-01-14 16:29:19.184 +01:00 [DBG] POST requests are not supported
+2024-01-14 16:29:19.184 +01:00 [DBG] POST requests are not supported
+2024-01-14 16:29:19.205 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Message/Send'
+2024-01-14 16:29:19.210 +01:00 [DBG] Endpoint 'SefosApi.Controllers.MessageController.Send (SefosApi)' with route pattern 'api/Message/Send' is valid for the request path '/api/Message/Send'
+2024-01-14 16:29:19.210 +01:00 [DBG] Request matched endpoint 'SefosApi.Controllers.MessageController.Send (SefosApi)'
+2024-01-14 16:29:19.212 +01:00 [INF] Executing endpoint 'SefosApi.Controllers.MessageController.Send (SefosApi)'
+2024-01-14 16:29:19.252 +01:00 [INF] Route matched with {action = "Send", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Send(SefosApi.Models.SefosRequestModel) on controller SefosApi.Controllers.MessageController (SefosApi).
+2024-01-14 16:29:19.256 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-01-14 16:29:19.256 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-01-14 16:29:19.256 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-01-14 16:29:19.256 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-01-14 16:29:19.256 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-01-14 16:29:19.257 +01:00 [DBG] Executing controller factory for controller SefosApi.Controllers.MessageController (SefosApi)
+2024-01-14 16:29:19.282 +01:00 [DBG] Executed controller factory for controller SefosApi.Controllers.MessageController (SefosApi)
+2024-01-14 16:29:19.286 +01:00 [DBG] Attempting to bind parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel' ...
+2024-01-14 16:29:19.288 +01:00 [DBG] Attempting to bind parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel' using the name '' in request data ...
+2024-01-14 16:29:19.288 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-14 16:29:19.325 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'SefosApi.Models.SefosRequestModel'
+2024-01-14 16:29:19.326 +01:00 [DBG] Done attempting to bind parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel'.
+2024-01-14 16:29:19.326 +01:00 [DBG] Done attempting to bind parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel'.
+2024-01-14 16:29:19.326 +01:00 [DBG] Attempting to validate the bound parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel' ...
+2024-01-14 16:29:19.340 +01:00 [DBG] Done attempting to validate the bound parameter 'messageRequest' of type 'SefosApi.Models.SefosRequestModel'.
+2024-01-14 16:29:19.518 +01:00 [INF] Start processing HTTP request POST "https://test-meaplus.sefos.se/server/rest/api/secure"
+2024-01-14 16:29:19.520 +01:00 [INF] Sending HTTP request POST "https://test-meaplus.sefos.se/server/rest/api/secure"
+2024-01-14 16:30:19.717 +01:00 [INF] Received HTTP response headers after 60194.317ms - 504
+2024-01-14 16:30:19.719 +01:00 [INF] End processing HTTP request after 60202.4274ms - 504
+2024-01-14 16:30:19.726 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-01-14 16:30:19.727 +01:00 [DBG] No information found on request to perform content negotiation.
+2024-01-14 16:30:19.727 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-14 16:30:19.727 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-14 16:30:19.728 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-14 16:30:19.728 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-14 16:30:19.750 +01:00 [INF] Executed action SefosApi.Controllers.MessageController.Send (SefosApi) in 60490.1427ms
+2024-01-14 16:30:19.751 +01:00 [INF] Executed endpoint 'SefosApi.Controllers.MessageController.Send (SefosApi)'
+2024-01-14 16:30:19.751 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/Message/Send application/json 608 - 504 - application/json;+charset=utf-8 60569.3737ms
+2024-01-14 16:30:19.751 +01:00 [DBG] Connection ID "17870283353081512018" disconnecting.
+2024-01-14 16:31:19.302 +01:00 [DBG] HttpMessageHandler expired after 120000ms for client ''
+2024-01-14 16:31:29.335 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-01-14 16:31:29.344 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.6323ms - processed: 0 items - remaining: 1 items
+2024-01-14 16:31:39.360 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-01-14 16:31:39.360 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2024-01-14 16:31:49.370 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-01-14 16:31:49.370 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2024-01-14 16:31:59.375 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-01-14 16:31:59.375 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2024-01-14 16:32:09.388 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-01-14 16:32:09.388 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2024-01-14 16:32:19.399 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-01-14 16:32:19.399 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2024-01-14 16:32:29.412 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-01-14 16:32:29.412 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2024-01-14 16:32:39.419 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-01-14 16:32:39.419 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2024-01-14 16:32:49.431 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-01-14 16:32:49.431 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items

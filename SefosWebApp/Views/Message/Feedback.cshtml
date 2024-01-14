@@ -1,0 +1,14 @@
+﻿@model FeedbackViewModel
+
+<h2>Feedback</h2>
+
+@if (Model.IsSuccess)
+{
+    <div class="alert alert-success">@Model.Message</div>
+}
+else
+{
+    <div class="alert alert-danger">@Model.Message</div>
+}
+
+<a href="/">Ana Sayfaya Dön</a>
