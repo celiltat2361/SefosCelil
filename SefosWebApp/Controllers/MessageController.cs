@@ -40,7 +40,6 @@ namespace SefosWebApp.Controllers
 
         if (requestModel.File != null && requestModel.File.Length > 0)
             {
-                // Dosya yükleme işlemini burada gerçekleştirin
                 Log.Information("File upload started for file: {FileName}", requestModel.File.FileName);
             }
 
